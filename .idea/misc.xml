@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/drawable/background_gradient.xml" value="0.246" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/drawable/custom_alert_background.xml" value="0.3405" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/drawable/homescreen_button_style.xml" value="0.3355" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/drawable/image_view_corner.xml" value="0.243" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/drawable/imageview_corner.xml" value="0.243" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/drawable/rounded_corner.xml" value="0.243" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/drawable/signup_button_style.xml" value="0.1345" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/drawable/signup_button_stytle.xml" value="0.2555" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/drawable/time_icon_foreground.xml" value="0.2555" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/font/bangers.xml" value="0.3927083333333333" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/activity_admin_event.xml" value="0.264" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/activity_homepage.xml" value="0.264" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/activity_signup.xml" value="0.264" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/admin_event_screen.xml" value="0.3625" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/admin_main_page.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/admin_scanner.xml" value="0.1" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/barcode_student.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/dept_create.xml" value="0.25" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/dept_delete.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/dept_list.xml" value="0.264" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/dept_screen.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/dept_update.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/event_click_admin_activity.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/event_delete.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/event_filter_dept_popup.xml" value="0.264" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/event_list.xml" value="0.264" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/event_screen.xml" value="0.25" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/event_update.xml" value="0.25" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/logout_user.xml" value="0.25" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/my_drawer_layout.xml" value="0.3625" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/reg_event_screen.xml" value="0.3614583333333333" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/register_success.xml" value="0.3614583333333333" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/registered_events.xml" value="0.3614583333333333" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/signup_activity.xml" value="0.264" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/signup_screen.xml" value="0.1" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/user_event_screen.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/user_profile.xml" value="0.3614583333333333" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/layout/user_profile_screen.xml" value="0.3614583333333333" />
+        <entry key="..\:/Users/arvin/AndroidStudioProjects/UTAEventTracker/app/src/main/res/menu/navigation_menu.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

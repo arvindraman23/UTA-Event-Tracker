@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient">
+
+
+    <Button
+        android:id="@+id/newDeptButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/signup_button_style"
+        android:backgroundTint="#0A7DD7"
+        android:text="Add New Department"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.608"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="180dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/bangers"
+        android:text="Departments"
+        android:textAlignment="center"
+        android:textColor="#673AB7"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/regTable2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="80dp"
+        android:background="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/newDeptButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10">
+
+        <TableLayout
+            android:id="@+id/table_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"></TableLayout>
+
+    </ScrollView>
+
+<!--    <TableLayout-->
+<!--        android:id="@+id/tableLayout"-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="400dp"-->
+<!--        android:layout_marginStart="24dp"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:layout_marginEnd="24dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView10">-->
+
+<!--        <TableRow-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent" />-->
+
+<!--        <TableRow-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent" />-->
+
+<!--        <TableRow-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent" />-->
+
+<!--        <TableRow-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent" />-->
+<!--    </TableLayout>-->
+
+<!--    <TableLayout-->
+<!--        android:id="@+id/tableLayout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_margin="40dp"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:background="@android:color/white"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView10"-->
+<!--        tools:layout_editor_absoluteX="40dp">-->
+
+<!--        <TableRow android:background="#673AB7">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="331dp"-->
+<!--                android:layout_height="37dp"-->
+<!--                android:layout_weight="4"-->
+<!--                android:background="#673AB7"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:padding="10sp"-->
+<!--                android:text="Department Name"-->
+<!--                android:textColor="@android:color/white"-->
+<!--                android:textSize="14sp"-->
+<!--                tools:layout_editor_absoluteX="35dp"-->
+<!--                tools:layout_editor_absoluteY="182dp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="331dp"-->
+<!--                android:layout_height="37dp"-->
+<!--                android:layout_weight="4"-->
+<!--                android:background="#673AB7"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:padding="10sp"-->
+<!--                android:text="Creation Date"-->
+<!--                android:textColor="@android:color/white"-->
+<!--                android:textSize="14sp"-->
+<!--                tools:layout_editor_absoluteX="35dp"-->
+<!--                tools:layout_editor_absoluteY="182dp" />-->
+<!--        </TableRow>-->
+
+<!--        <TableRow>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="4"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:padding="10sp"-->
+<!--                android:text="Sports"-->
+<!--                android:textSize="12sp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="4"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:padding="10sp"-->
+<!--                android:text="11/07/2022"-->
+<!--                android:textSize="12sp" />-->
+<!--        </TableRow>-->
+
+<!--        <TableRow>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="4"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:padding="10sp"-->
+<!--                android:text="CSE Night"-->
+<!--                android:textSize="12sp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="4"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:padding="10sp"-->
+<!--                android:text="11/10/2022"-->
+<!--                android:textSize="12sp" />-->
+<!--        </TableRow>-->
+
+<!--        <TableRow>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="4"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:padding="10sp"-->
+<!--                android:text="Event"-->
+<!--                android:textSize="12sp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="4"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:padding="10sp"-->
+<!--                android:text="11/10/2022"-->
+<!--                android:textSize="12sp" />-->
+<!--        </TableRow>-->
+
+<!--        <TableRow>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="4"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:padding="10sp"-->
+<!--                android:text="Concert"-->
+<!--                android:textSize="12sp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="4"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:padding="10sp"-->
+<!--                android:text="11/12/2022"-->
+<!--                android:textSize="12sp" />-->
+<!--        </TableRow>-->
+
+<!--        <TableRow>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="4"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:padding="10sp"-->
+<!--                android:text="Class"-->
+<!--                android:textSize="12sp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="4"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:padding="10sp"-->
+<!--                android:text="11/21/2022"-->
+<!--                android:textSize="12sp" />-->
+<!--        </TableRow>-->
+
+<!--        <TableRow>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="4"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:padding="10sp"-->
+<!--                android:text="Special Event Facilities"-->
+<!--                android:textSize="12sp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="4"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:padding="10sp"-->
+<!--                android:text="11/23/2022"-->
+<!--                android:textSize="12sp" />-->
+<!--        </TableRow>-->
+
+<!--        <TableRow>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="4"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:padding="10sp"-->
+<!--                android:text="Infotainment"-->
+<!--                android:textSize="12sp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="4"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:padding="10sp"-->
+<!--                android:text="11/25/2022"-->
+<!--                android:textSize="12sp" />-->
+<!--        </TableRow>-->
+
+<!--    </TableLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

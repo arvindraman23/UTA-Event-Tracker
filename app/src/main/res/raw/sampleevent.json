@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Thanksgiving",
+    "description": "Enjoy the food",
+    "venue": "UC",
+    "eventDate": "2022-11-20",
+    "eventTime": "12:00:00",
+    "department":{
+      "id":5,
+      "name": "Special Events"
+    }
+  },
+  {
+    "title": "UTA Hackathon",
+    "description": "Code. Compete. Repeat.",
+    "venue": "UC",
+    "eventDate": "2022-11-23",
+    "eventTime": "09:00:00",
+    "department":{
+      "id":1,
+      "name": "Computer Science"
+    }
+  },
+  {
+    "title": "Karaoke Night",
+    "description": "Sing Along with pizza!",
+    "venue": "UC",
+    "eventDate": "2022-11-28",
+    "eventTime": "20:00:00",
+    "department":{
+      "id":3,
+      "name": "Music"
+    }
+  },
+  {
+    "title": "Pool Night",
+    "description": "Come win the 8-ball pool!",
+    "venue": "MAC",
+    "eventDate": "2022-11-29",
+    "eventTime": "21:00:00",
+    "department":{
+      "id":4,
+      "name": "Sports"
+    }
+  },
+  {
+    "title": "Waffl-o-polis",
+    "description": "Enjoy the Waffles",
+    "venue": "UC",
+    "eventDate": "2022-11-30",
+    "eventTime": "18:00:00",
+    "department":{
+      "id":5,
+      "name": "Special Events"
+    }
+  },
+  {
+    "title": "Poetry Night",
+    "description": "Recite the poems",
+    "venue": "NH",
+    "eventDate": "2022-12-01",
+    "eventTime": "19:30:00",
+    "department":{
+      "id":7,
+      "name": "Literature"
+    }
+  },
+  {
+    "title": "Foam Party",
+    "description": "Relax. Rewind. Foam. Repeat.",
+    "venue": "UC",
+    "eventDate": "2022-12-02",
+    "eventTime": "18:45:00",
+    "department":{
+      "id":5,
+      "name": "Special Events"
+    }
+  },
+  {
+    "title": "Soccer Night",
+    "description": "Come play Football",
+    "venue": "MAC",
+    "eventDate": "2022-11-20",
+    "eventTime": "09:30:00",
+    "department":{
+      "id":4,
+      "name": "Sports"
+    }
+  },
+  {
+    "title": "Census Date",
+    "description": "Finalize the subject list.",
+    "venue": "UC",
+    "eventDate": "2022-11-20",
+    "eventTime": "12:00:00",
+    "department":{
+      "id":8,
+      "name": "Public Announcement"
+    }
+  }
+]
+

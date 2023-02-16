@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/declineEventButton"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/signup_button_style"
+        android:backgroundTint="#673AB7"
+        android:text="Decline Event"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminEventDescription" />
+
+    <Button
+        android:id="@+id/adminEventUpdate"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="64dp"
+        android:background="@drawable/signup_button_style"
+        android:backgroundTint="#673AB7"
+        android:text="Accept"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminEventDescription" />
+
+    <Button
+        android:id="@+id/adminEventDelete"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/signup_button_style"
+        android:backgroundTint="#673AB7"
+        android:text="Cancel"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminEventDescription" />
+
+    <TextView
+        android:id="@+id/adminEventDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:editable="false"
+        android:text="December 02 2022, 6:45 pm CST"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminEventTitle" />
+
+    <TextView
+        android:id="@+id/adminEventTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="FOAM PARTY!"
+        android:textColor="#673AB7"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/adminEventDescription"
+        android:layout_width="0dp"
+        android:layout_height="232dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:editable="false"
+        android:lines="15"
+        android:text="The event will include a spirited performance by the UTA Band, spirit groups, student organizations, and a lineup of speakers including UTA President Jennifer Cowley and student body President Teresa Nguyen. Continue the celebration at the Afterparty and join in the activities in the University Center. The fun includes a mechanical bull, caricature artists, airbrush tattoos, and a dance party hosted by DJSC. Free food and giveaways, too. The convocation is part of the Maverick Stampede, UTA's welcoming tradition of events, activities, networking, and socializing. Read more about this week's Stampede events below. "
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminEventDate" />
+</androidx.constraintlayout.widget.ConstraintLayout>

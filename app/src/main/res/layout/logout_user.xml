@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView15"-->
+<!--        android:layout_width="305dp"-->
+<!--        android:layout_height="37dp"-->
+<!--        android:lines="2"-->
+<!--        android:text="Are you sure you want to logout?"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        tools:layout_editor_absoluteX="52dp"-->
+<!--        tools:layout_editor_absoluteY="246dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/timeButton9"-->
+<!--        android:layout_width="114dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:layout_marginEnd="64dp"-->
+<!--        android:backgroundTint="#673AB7"-->
+<!--        android:text="Logout"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView15" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/timeButton8"-->
+<!--        android:layout_width="114dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginStart="56dp"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:backgroundTint="#673AB7"-->
+<!--        android:text="Cancel"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView15" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>
